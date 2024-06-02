@@ -22,8 +22,8 @@ main {
 }
 
 .box {
-	min-width: 500px; /* Setting size for about page */
-	max-width: 640px;
+	min-width: 640px; /* Setting size for about page */
+	max-width: 800px;
 }
 
 #about-content{
@@ -60,14 +60,12 @@ p {
 }
 
 .text-bold {
-	padding-left: 15px;
 	color: #808080;
 	font-weight: bold;
 	font-size: 14px;
 }
 
 .text-dark {
-	padding-left: 15px;
 	color: #808080;
 	font-weight: normal;
 	font-size: 14px;
@@ -121,4 +119,31 @@ hr {
 
 .hidden {
     display: none;
+}
+
+
+#youtube{
+	color: red;
+}
+#twitch{
+	color: purple;
+}
+#itch{
+	color: orange;
+}
+#git{
+	color: #5865F2;
+}
+#kofi{
+	color: #00FFFF;
+}
+#patreon{
+	color: yellow;
+}
+#steam{
+	color: #00adee;
+}
+
+#links{
+	color: white;
 }
