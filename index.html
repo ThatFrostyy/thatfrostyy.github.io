@@ -14,33 +14,35 @@
 		<h2 class="greeting">Welcome, stalker.</h2>
 		<hr>
     </header>
-    <main>
-		<div id="content">
-			<div id="home-content">
+    <main class="container">
+		<div class="button-box">
+			<button class="my-button" onclick="toggleContent('home-content')">Home</button>
+			<button class="my-button" onclick="toggleContent('about-content')">About</button>
+			<button class="my-button" onClick="window.open('https://discord.gg/JuZMZGMRMd', '_blank')">Discord</button>
+
+		</div>
+		<div id="content-box">
+			<div id="home-content" class="box">
+				<p class="text">Welcome to my website, here you can find all of the projects I worked on including some info about me.</p>
 				<p class="text">Welcome to my website, here you can find all of the projects I worked on including some info about me.</p>
 			</div>
 			<div id="about-content" class="hidden">
-				<p class="text">xxxxrs</p>
-			</div>
-			<div id="links-content" class="hidden">
-				<p class="text">aerrdes</p>
-			</div>		
-		</div>
-		
-		<div class="button-container">
-			<button class="my-button" onclick="toggleContent('home-content')">Home</button>
-			<hr class="button">
-			<button class="my-button" onclick="toggleContent('about-content')">About</button>
-			<hr class="button">
-			<button class="my-button" onclick="toggleContent('links-content')">Links</button>
-			<hr class="button">		
-			<button class="my-button" onclick="openDiscordServer()">Discord</button>
-			<hr class="button">
+				<p class="about">
+					<span class="header2">About</span>
+					<br>
+					<span class="text">Content</span>
+					<br>
+					<br>					
+					<span class="header2">Links</span>
+					<br>					
+					<span class="text">Content Link</span>
+				</p>
+			</div>	
 		</div>
     </main>
     <footer>
 		<div class="copy">
-			<p>© 2024 Frostyy</p>
+			<p>© 2024 Frostyy & Shorty</p>
 		</div>
     </footer>
     <script src="script.js"></script>

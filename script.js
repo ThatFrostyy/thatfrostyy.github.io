@@ -16,14 +16,11 @@ function getGreeting() {
 function toggleContent(contentId) {
     const allContent = document.querySelectorAll('[id$="-content"]');
     allContent.forEach(content => {
+        content.classList.remove('box');		
         content.classList.add('hidden');
     });
 
     const selectedContent = document.getElementById(contentId);
     selectedContent.classList.remove('hidden');
-}
-
-function openDiscordServer() {
-    const discordServerLink = 'https://discord.gg/JuZMZGMRMd';
-    window.open(discordServerLink, '_blank');
+	selectedContent.classList.add('box');
 }

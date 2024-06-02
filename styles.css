@@ -1,5 +1,5 @@
 body {
-    font-family: "Segoe UI", sans-serif;
+    font-family: "Tahoma", sans-serif;
     color: #ffffff;
     background-color: #2c2c2c;
 }
@@ -14,7 +14,21 @@ footer {
 main {
 }
 
-.content {
+#content-box {
+}
+
+.container {
+	display: flex;
+}
+
+.box {
+	min-width: 700px; /* Setting size for about page */
+}
+
+#about-content{
+	background-color: #1c1c1c;
+	border: 1px solid #498aaf;
+	margin-left: 15px;
 }
 
 .greeting {
@@ -26,11 +40,24 @@ p {
     padding: 0px;
 }
 
-.text {
-    margin-left: 230px;
+.about {
+	padding: 5px;
 }
 
-.button-container {
+.header2 {
+	color: #5aa9d6;
+	font-size: 22px;
+	line-height: 21px;
+	font-weight: 400;
+	clear: both;
+}
+
+.text {
+	padding-left: 15px;
+}
+
+.button-box {
+	vertical-align: top;
 }
 
 .my-button {
@@ -41,14 +68,14 @@ p {
 	text-align: left;
     background-color: #2c2c2c; 
     color: #fff;
-    border: none;
+	border: none;
     padding: 8px 8px;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 5px; 
 	transition: background-color 0.3s ease; 
     display: block;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
+	border-bottom: 1px solid #444;
 }
 
 .my-button:hover {
@@ -72,13 +99,9 @@ hr {
 	margin-left: 70px;
 	margin-bottom: 1em;
     height: 1px;
-	width: 1200px;
+	width: 90%;
     background-color: #444; 
 } 
-
-hr.button {
-	width: 120px;
-}
 
 .hidden {
     display: none;
