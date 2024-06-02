@@ -2,6 +2,9 @@
 <html>
 <head>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<meta property="og:title" content="Home">
+	<meta property="og:url" content="https://thatfrostyy.github.io">
+	<meta name="theme-color" content="#2c2c2c">
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
@@ -9,12 +12,19 @@
     <header>
     </header>
     <main>
+		<div id="home-content">
+			<p class="text">Welcome to my page!</p>
+		</div>
+		<div id="about-content" class="hidden">
+			<p class="text">I am from Serbia.</p>
+		</div>
+
         <h2 class="greeting">Welcome, stalker.</h2>
 		<hr>
 		<div class="button-container">
-			<button class="my-button">Home</button>
+			<button class="my-button" onclick="toggleContent('home-content')">Home</button>
 			<hr class="button">
-			<button class="my-button">About</button>
+			<button class="my-button" onclick="toggleContent('about-content')">About</button>
 			<hr class="button">
 			<button class="my-button">Links</button>
 			<hr class="button">		

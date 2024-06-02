@@ -12,11 +12,22 @@ footer {
 }
 
 main {
-    text-align: justify;
 }
 
 .greeting {
 	margin-left: 70px;
+    text-align: justify;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    margin-left: 230px;
+    position: relative;
+	top: 117px;
 }
 
 .button-container {     
@@ -70,4 +81,8 @@ hr {
 
 hr.button {
 	width: 120px;
+}
+
+.hidden {
+    display: none;
 }
