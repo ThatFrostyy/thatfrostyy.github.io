@@ -3,6 +3,7 @@
 <head>
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 	<meta property="og:title" content="Home">
+	<meta property="og:description" content="Welcome to my website, here you can find all of the projects I worked on including some info about me.">
 	<meta property="og:url" content="https://thatfrostyy.github.io">
 	<meta name="theme-color" content="#2c2c2c">
     <title>Home</title>
@@ -10,23 +11,28 @@
 </head>
 <body>
     <header>
+		<h2 class="greeting">Welcome, stalker.</h2>
+		<hr>
     </header>
     <main>
-		<div id="home-content">
-			<p class="text">Welcome to my page!</p>
+		<div id="content">
+			<div id="home-content">
+				<p class="text">Welcome to my website, here you can find all of the projects I worked on including some info about me.</p>
+			</div>
+			<div id="about-content" class="hidden">
+				<p class="text">xxxxrs</p>
+			</div>
+			<div id="links-content" class="hidden">
+				<p class="text">aerrdes</p>
+			</div>		
 		</div>
-		<div id="about-content" class="hidden">
-			<p class="text">I am from Serbia.</p>
-		</div>
-
-        <h2 class="greeting">Welcome, stalker.</h2>
-		<hr>
+		
 		<div class="button-container">
 			<button class="my-button" onclick="toggleContent('home-content')">Home</button>
 			<hr class="button">
 			<button class="my-button" onclick="toggleContent('about-content')">About</button>
 			<hr class="button">
-			<button class="my-button">Links</button>
+			<button class="my-button" onclick="toggleContent('links-content')">Links</button>
 			<hr class="button">		
 			<button class="my-button" onclick="openDiscordServer()">Discord</button>
 			<hr class="button">

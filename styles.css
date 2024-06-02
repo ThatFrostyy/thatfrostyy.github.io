@@ -14,9 +14,11 @@ footer {
 main {
 }
 
+.content {
+}
+
 .greeting {
-	margin-left: 70px;
-    text-align: justify;
+	margin-left: 70px;	
 }
 
 p {
@@ -27,12 +29,9 @@ p {
 .text {
     margin-left: 230px;
     position: relative;
-	top: 117px;
 }
 
-.button-container {     
-    justify-content: center;
-    align-items: center;
+.button-container {
 }
 
 .my-button {
@@ -48,7 +47,6 @@ p {
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px; 
-    /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 	transition: background-color 0.3s ease; 
     display: block;
     margin-bottom: 10px; 
