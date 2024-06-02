@@ -12,3 +12,8 @@ function getGreeting() {
         return "🌃 Good evening, stalker.";
     }
 }
+
+function openDiscordServer() {
+    const discordServerLink = 'https://discord.gg/JuZMZGMRMd';
+    window.open(discordServerLink, '_blank');
+}

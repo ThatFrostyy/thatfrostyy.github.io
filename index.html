@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Home</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
@@ -10,7 +11,16 @@
     <main>
         <h2 class="greeting">Welcome, stalker.</h2>
 		<hr>
-		<button class="my-button">Home</button>
+		<div class="button-container">
+			<button class="my-button">Home</button>
+			<hr class="button">
+			<button class="my-button">About</button>
+			<hr class="button">
+			<button class="my-button">Links</button>
+			<hr class="button">		
+			<button class="my-button" onclick="openDiscordServer()">Discord</button>
+			<hr class="button">
+		</div>
     </main>
     <footer>
 		<div class="copy">
