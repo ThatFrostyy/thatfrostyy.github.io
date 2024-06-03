@@ -22,8 +22,7 @@ main {
 }
 
 .box {
-	min-width: 640px; /* Setting size for about page */
-	max-width: 800px;
+	width: 640px; /* Setting size for about page */
 }
 
 #about-content{
