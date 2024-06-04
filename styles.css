@@ -64,8 +64,23 @@ img {
 	clear: both;
 }
 
-h3 {
+.project-title {
 	padding-left: 15px;
+}
+
+.video-title {
+    overflow: visible;
+    text-align: center;
+}
+
+h3 {
+    overflow: visible;
+}
+
+#clip {
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
 }
 
 .text {
