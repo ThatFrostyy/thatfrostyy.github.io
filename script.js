@@ -3,14 +3,18 @@ greetingElement.textContent = getGreeting();
 
 function getGreeting() {
     const currentTime = new Date().getHours();
-
-    if (currentTime < 12) {
-        return "🌇 Good morning, stalker.";
-    } else if (currentTime < 18) {
-        return "☀️ Good afternoon, stalker.";
-    } else {
-        return "🌃 Good evening, stalker.";
-    }
+ 
+	if (currentTime < 5) {
+		return "🌕 Good night.";
+	} else if (currentTime < 12) {
+		return "🌇 Good morning.";
+	} else if (currentTime < 17) {
+		return "☀️ Good afternoon.";
+	} else if (currentTime < 24){
+		return "🌃 Good evening.";
+	} else {
+		return "Invalid time.";
+	}
 }
 
 function toggleContent(contentId) {

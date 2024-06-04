@@ -25,6 +25,10 @@ main {
 	width: 640px; /* Setting size for about page */
 }
 
+.text-box {
+	width: 1000px; /* Setting size for home page */
+}
+
 #about-content{
 	background-color: #1c1c1c;
 	border: 1px solid #498aaf;
@@ -40,6 +44,10 @@ p {
     padding: 0px;
 }
 
+img {
+	padding: 15px;
+}
+
 .about {
 	padding: 5px;
 }
@@ -53,9 +61,19 @@ p {
 	clear: both;
 }
 
+h3 {
+	padding-left: 15px;
+}
+
 .text {
 	padding-left: 15px;
 	color: #c4c4c4;
+}
+
+.text-info {
+	padding-left: 15px;
+	color: #808080;
+	text-decoration: italic;
 }
 
 .text-bold {
@@ -145,4 +163,5 @@ hr {
 
 #links{
 	color: white;
+	text-decoration: none;
 }
