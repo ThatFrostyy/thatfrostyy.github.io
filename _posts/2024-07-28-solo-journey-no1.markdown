@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Solo Trainhopping Journey | Part 1"
+title:  "Solo Trainhopping Journey | No. 1"
 date:   2024-07-28
 categories: blog
 ---
 This was my first ever solo journey; all my past adventures have been with a friend, usually [@vexel](https://www.youtube.com/@vexelfreedom). The journey covered around `200km` and lasted `5/6` hours.
+
+You can find the full video [here](https://youtu.be/WRimP5wjboc).
 
 ## Preperation
 ### Planning the Route
