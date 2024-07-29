@@ -28,7 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 rss: false
 github_username:  "@ThatFrostyy"
 youtube_username: "@ThatFrostyy"
-twitter_username: "@thatfrostyy"
+instagram_username: "vulinovicc"
+tiktok_username: "vulinovic"
 
 show_excerpts: true
 excerpt_length: 50
